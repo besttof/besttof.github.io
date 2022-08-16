@@ -1,1 +1,15 @@
-Hello world!
+# besttof.com
+
+## Running Locally
+
+```bash
+bundle exec jekyll serve --drafts
+```
+
+## Installing Jekyll
+
+```bash
+xcode-select --install
+sudo gem install bundler jekyll
+bundle install
+```

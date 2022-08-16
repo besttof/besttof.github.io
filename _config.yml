@@ -1,1 +1,14 @@
-theme: jekyll-theme-minimal
+title: best tof.
+description: no, it is not a typo.
+baseurl: ""
+url: "https://www.besttof.com"
+twitter_username: besttof
+github_username:  besttof
+
+#theme: minima
+plugins:
+  - jekyll-feed
+
+feed:
+  path: rss
+

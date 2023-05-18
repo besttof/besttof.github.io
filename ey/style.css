@@ -1,36 +1,65 @@
-section {
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	width: 100vw;
-	
+}
+
+div#a {
+	flex-grow: 0;
+	aspect-ratio: 1/2;
+	height: 100%;
+	flex: 1;
+	background-color: aquamarine;
+
 	background-image: url(./bg.png);
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: center 0;
 	background-size: contain;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-section * {
-	padding-top: 8px;
-	min-width: 110px;
-	min-height: 110px;
-	max-width: 190px;
-	max-height: 190px;
-}
-
-section img, section textarea {
-	text-align: center;
-}
-
-section textarea {
-	resize: both;
-}
-
-.dark {
-	background-color: black;
+#screen {
 	color: white;
+	font-family: monospace;
+	font-size: 0.5em;
+
+	flex-grow: 0;
+
+	margin-top: 3.5%;
+	margin-left: 2%;
+	max-width: 65%;
+	max-height: 23%;
 }
+
+.console {
+	overflow: scroll;
+}
+
+.console::-webkit-scrollbar{
+	display: none;
+}
+
+#a textarea {
+	text-align: center;
+	resize: both;
+	font-size: 0.5em;
+	min-height: 7%;
+	min-width: 10%;
+}
+
 
 /* vvv REMOVE vvv*/
 nav {

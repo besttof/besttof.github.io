@@ -67,6 +67,12 @@ div#e {
 	display: none;
 }
 
+.hint {
+	font-family: monospace;
+	font-size: 0.3em;
+	padding: 1em;
+}
+
 #a textarea {
 	text-align: center;
 	resize: both;

@@ -46,6 +46,10 @@ div#e {
 	justify-content: center;
 }
 
+div#e img {
+	max-width: 100vmin;
+}
+
 #screen {
 	color: white;
 	font-family: monospace;
@@ -69,14 +73,15 @@ div#e {
 
 .hint {
 	font-family: monospace;
-	font-size: 0.3em;
-	padding: 1em;
+	font-size: 3mm;
+	padding: 3mm;
+	text-align: center;
 }
 
 #a textarea {
 	text-align: center;
 	resize: both;
-	font-size: 0.5em;
+	font-size: 2vmin;
 	min-height: 7%;
 	min-width: 10%;
 }
